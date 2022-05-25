@@ -41,7 +41,7 @@ public class Pickup : MonoBehaviour
 	/// <returns>The score. Return -1 if failed to collect.</returns>
 	public int GetPickedUp()
 	{
-		if (IsCollected) return -1;
+        if (IsCollected) return -1;
 
 		HandlePickedUp();
 
